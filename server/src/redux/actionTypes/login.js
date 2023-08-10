@@ -1,0 +1,8 @@
+export const LOGIN_INITIATE = "LOGIN_INITIATE";
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const LOGIN_FAIL = "LOGIN_FAIL";
+
+export const LOGOUT = "LOGOUT";
+
+export const INSERT_TOKEN_SUCCESS = "INSERT_TOKEN_SUCCESS";
+export const INSERT_TOKEN_FAIL = "INSERT_TOKEN_FAIL";
