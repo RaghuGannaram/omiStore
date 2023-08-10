@@ -1,4 +1,4 @@
-const mongoURL = "mongodb+srv://ecomDB:Ecom1234@ecomcluster.jw5qe.mongodb.net/testDB?retryWrites=true&w=majority";
+const mongoURL = process.env.MONGO_URL;
 
 const devConfigOptions = {
 	dbName: "fashionDB",
